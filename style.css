@@ -2,3 +2,27 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.aktivitetskort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #a74f80;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #f7d788;
+  font-family: sans-serif;
+  color: #a74f80;
+
+  border-radius: 10px;
+}
+@media (min-width: 768) {
+  .container {
+    display: flex;
+    background: #e2e8f0;
+  }
+}
