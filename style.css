@@ -1,14 +1,16 @@
-.content {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 100%;
 }
 .aktivitetskort {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 1.25rem;
   background-color: #a74f80;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 1 rem;
+  padding: 1.25rem;
+  max-width: 100%;
 }
 
 .footer {
@@ -18,11 +20,26 @@
   font-family: sans-serif;
   color: #a74f80;
 
-  border-radius: 10px;
+  border-radius: 1rem;
+  max-width: 100%;
 }
 @media (min-width: 768) {
   .container {
     display: flex;
     background: #e2e8f0;
   }
+}
+.aktivitet img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.img {
+  max-width: 100%;
 }

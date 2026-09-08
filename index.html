@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pankakor</title>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
 
   <body>
-    <header class="hero">
+    <header class="container-hero">
       <h1>Pannkakor</h1>
-      <img src="https://placehold.net/400x400.png" width="500" height="300" />
-      <h2>Om Amerikanska Pannkakor</h2>
+      <img
+        class="img"
+        src="https://placehold.net/400x400.png"
+        width="500"
+        height="300"
+      />
+      <nav>
+        <a href="#Amerikanska">Om Amerikanska Pannkakor</a>
+        <a href="#Svenska">Om Svenska Pannkakor</a>
+        <a href="#aktiviteter">Aktiviteter</a>
+      </nav>
+      <h2 id="Amerikanska">Om Amerikanska Pannkakor</h2>
       <p>
         Nederländska nybyggare tog med sig pannkaksrecept till Amerika på
         1700-talet. Ursprungsbefolkningen hade också egna varianter, och tidiga
         amerikanska pannkakor gjordes ofta på bovete eller majsmjöl istället för
         vetemjöl. De var ganska tunna och stekta över öppen eld.
       </p>
-      <h2>Om Svenska Pannkakor</h2>
+      <h2 id="Svenska">Om Svenska Pannkakor</h2>
       <p>
         Svenska pannkakor har en lång historia som sträcker sig tillbaka till
         medeltiden, även om den tunna, moderna pannkakan formades ordentligt
@@ -29,48 +38,81 @@
       <p>Plats: I byn</p>
       <p>Nordens största pannkakofestival</p>
     </header>
-    <h2>Gör din egen pannkaka</h2>
-    <article class="content">
-      <p>Skapa din egna pannkaka med valfria toppings</p>
-      <p>Sirap, sylt, grädde, bär, frukt, choklad, nötter, glass</p>
+    <main>
+      <section>
+        <h2>Event</h2>
+        <div class="grid-container">
+          <article>
+            <h2>Gör din egen pannkaka</h2>
+            <p>Skapa din egna pannkaka med valfria toppings</p>
+            <p>Sirap, sylt, grädde, bär, frukt, choklad, nötter, glass</p>
 
-      <p>
-        Gör så här: Blanda mjöl och hälften av mjölken till en slät smet.
-        Tillsätt resten av mjölken och äggen. Låt smeten svälla i ca 30 minuter.
-        Stek pannkakorna i smör på medelvärme.
-      </p>
-    </article>
-    <section class="highlights">
-      <h2>Aktiviteter</h2>
-      <div class="aktivitetskort">
-        <article class="aktivitet">
-          <h3>Världskock på besök</h3>
-          <img src="img.jpg" width="500" height="300" />
-          <p>
-            Världskocken John Doe kommer till byn för att visa sina bästa
-            pannkaksrecept och tekniker. Missa inte chansen att lära dig av en
-            mästare!
-          </p>
-        </article>
-        <article class="aktivitet">
-          <h3>Lärare från lokala skolan på besök</h3>
-          <p>
-            Lärare från lokala skolor kommer att bjuda in elever att lära sig
-            att göra pannkakor i klassrummet. Det är en bra chans att lära sig
-            en ny färdighet och ha kul samtidigt!
-          </p>
-        </article>
-      </div>
-    </section>
+            <p>
+              Gör så här: Blanda mjöl och hälften av mjölken till en slät smet.
+              Tillsätt resten av mjölken och äggen. Låt smeten svälla i ca 30
+              minuter. Stek pannkakorna i smör på medelvärme.
+            </p>
+          </article>
+          <article>
+            <h2>Gör din egen pannkaka</h2>
+            <p>Skapa din egna pannkaka med valfria toppings</p>
+            <p>Sirap, sylt, grädde, bär, frukt, choklad, nötter, glass</p>
+
+            <p>
+              Gör så här: Blanda mjöl och hälften av mjölken till en slät smet.
+              Tillsätt resten av mjölken och äggen. Låt smeten svälla i ca 30
+              minuter. Stek pannkakorna i smör på medelvärme.
+            </p>
+          </article>
+          <article>
+            <h2>Gör din egen pannkaka</h2>
+            <p>Skapa din egna pannkaka med valfria toppings</p>
+            <p>Sirap, sylt, grädde, bär, frukt, choklad, nötter, glass</p>
+
+            <p>
+              Gör så här: Blanda mjöl och hälften av mjölken till en slät smet.
+              Tillsätt resten av mjölken och äggen. Låt smeten svälla i ca 30
+              minuter. Stek pannkakorna i smör på medelvärme.
+            </p>
+          </article>
+          <article>
+            <h2>Gör din egen pannkaka</h2>
+            <p>Skapa din egna pannkaka med valfria toppings</p>
+            <p>Sirap, sylt, grädde, bär, frukt, choklad, nötter, glass</p>
+
+            <p>
+              Gör så här: Blanda mjöl och hälften av mjölken till en slät smet.
+              Tillsätt resten av mjölken och äggen. Låt smeten svälla i ca 30
+              minuter. Stek pannkakorna i smör på medelvärme.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="highlights">
+        <h2 id="aktiviteter">Aktiviteter</h2>
+        <div class="aktivitetskort">
+          <article class="aktivitet">
+            <h3>Världskock på besök</h3>
+            <img src="img.jpg" width="500" height="300" />
+            <p>
+              Världskocken John Doe kommer till byn för att visa sina bästa
+              pannkaksrecept och tekniker. Missa inte chansen att lära dig av en
+              mästare!
+            </p>
+          </article>
+          <article class="aktivitet">
+            <h3>Lärare från lokala skolan på besök</h3>
+            <p>
+              Lärare från lokala skolor kommer att bjuda in elever att lära sig
+              att göra pannkakor i klassrummet. Det är en bra chans att lära sig
+              en ny färdighet och ha kul samtidigt!
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
-      <nav>
-        <ul>
-          <li><a href="#">Om Amerikanska Pannkakor</a></li>
-          <li><a href="#">Om Svenska Pannkakor</a></li>
-          <li><a href="#">Aktiviteter</a></li>
-        </ul>
-        <p>Kontakt: mail@maildotcom.se</p>
-      </nav>
+      <p>Kontakt: mail@maildotcom.se</p>
       <p>Sponsorer: Pannkakstillverkaren, Mjölbolaget, Sockerfabriken</p>
     </footer>
   </body>
