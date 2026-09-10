@@ -24,7 +24,6 @@
   max-width: 100%;
 }
 
-
 .aktivitet img {
   max-width: 100%;
   height: auto;
@@ -33,6 +32,9 @@
 
 @media (max-width: 600px) {
   .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .footer {
     grid-template-columns: 1fr;
   }
 }
