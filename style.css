@@ -15,7 +15,7 @@
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #f7d788;
   font-family: sans-serif;
   color: #a74f80;
@@ -23,12 +23,8 @@
   border-radius: 1rem;
   max-width: 100%;
 }
-@media (min-width: 768) {
-  .container {
-    display: flex;
-    background: #e2e8f0;
-  }
-}
+
+
 .aktivitet img {
   max-width: 100%;
   height: auto;
